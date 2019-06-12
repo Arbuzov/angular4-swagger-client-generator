@@ -199,6 +199,8 @@ var Generator = (function () {
                             parameter.typescriptType = that.camelCase(parameter.items['type']) +'[]';
                         }
                         parameter.isArray = true;
+                    } else if (parameter.type === 'file') {
+                        parameter.typescriptType = 'File';
                     } else {
                         parameter.typescriptType = that.camelCase(parameter.type);
                     }

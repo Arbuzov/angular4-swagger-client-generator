@@ -10,7 +10,7 @@ The generated service class uses new [HttpClient](https://angular.io/guide/http)
 
 ## Installation
 
-`npm install angular4-swagger-client-generator`
+`npm install @spacebridge/angular4-swagger-client-generator`
 
 or  
 

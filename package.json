@@ -1,22 +1,22 @@
 {
-  "name": "angular4-swagger-client-generator",
+  "name": "@spacebridge/angular4-swagger-client-generator",
   "version": "0.1.27",
-  "description": "Angular 4/5/6 REST API client generator from Swagger JSON with camel case settings",
+  "description": "Angular 4/5/6/7 REST API client generator from Swagger JSON with camel case settings",
   "homepage": "https://github.com/lotjomik/angular4-swagger-client-generator",
   "main": "index.js",
   "bin": {
     "a4apigen": "./bin/a4apigen.js"
   },
   "author": {
-    "name": "Mika Lötjönen",
-    "email": "mika.lotjonen@tieto.com"
+    "name": "Serge.Arbuzov",
+    "email": "Serge.Arbuzov@spacebridge.com"
   },
   "bugs": {
-    "url": "https://github.com/lotjomik/angular4-swagger-client-generator/issues"
+    "url": "https://github.com/Arbuzov/angular4-swagger-client-generator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lotjomik/angular4-swagger-client-generator.git"
+    "url": "git@github.com:Arbuzov/angular4-swagger-client-generator.git"
   },
   "keywords": [
     "swagger",
@@ -28,6 +28,7 @@
     "angular4",
     "angular5",
     "angular6",
+    "angular7",
     "scaffolding"
   ],
   "license": "Apache-2.0",
